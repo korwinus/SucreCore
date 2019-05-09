@@ -13,7 +13,7 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
-git clone https://github.com/sucremoneda/SucreCore.git
+git clone https://github.com/korwinus/SucreCore.git
 
 cd SucreCore
 find . -name "*.sh" -exec sudo chmod 755 {} \;
